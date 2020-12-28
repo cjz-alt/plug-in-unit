@@ -1,0 +1,29 @@
+{
+    "name": "administrator/num2nmb",
+    "description": "number to RMB",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fanly",
+            "email": "yemeishu@123.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Fanly\\Num2nmb\\": "src/"
+        },
+        "classmap": [
+            "database/seeders",
+            "database/factories",
+            "packages/fanly/num2nmb/src"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fanly\\Num2nmb\\": "src/"
+        }
+    }
+}
